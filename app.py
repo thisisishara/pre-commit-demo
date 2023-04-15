@@ -1,6 +1,9 @@
 import os
 
 
+import hashlib
+
+
 from datetime import datetime
 
 
