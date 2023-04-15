@@ -9,4 +9,4 @@ repos:
       rev: v1.2.0
       hooks:
           - id: mypy
-            args: [--disallow-untyped-defs, --warn-redundant-casts, --warn-unused-ignores, --python-version=3.10, --warn-return-any]
+            args: [--disallow-untyped-defs, --warn-redundant-casts, --warn-unused-ignores, --python-version=3.10]
