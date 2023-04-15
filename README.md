@@ -17,3 +17,4 @@ more info on this @https://pre-commit.com/#usage
 3. run `pyment -o google -w .` for overwriting existing `.py` files with atomic google docstrings.
 
 more info on this @https://github.com/dadadel/pyment
+possibly you might wanna remove `*.py.patch` files
