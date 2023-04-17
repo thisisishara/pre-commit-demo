@@ -1,12 +1,12 @@
 from datetime import datetime
-from typing import Any
+from typing import Any, List, Text
 
 
-def get_date_from_string(date_str: str, format_: str) -> datetime:
+def get_date_from_string(date_str: Text, format_: Text) -> datetime:
     return datetime.strptime(date_str, format_)
 
 
-def add_numbers(numbers: list[int]) -> Any:
+def add_numbers(numbers: List[int]) -> Any:
     return sum(numbers)
 
 
