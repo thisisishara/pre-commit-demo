@@ -18,3 +18,7 @@ more info on this @https://pre-commit.com/#usage
 
 more info on this @https://github.com/dadadel/pyment
 possibly you might wanna remove `*.py.patch` files
+
+## To-do
+- [ ] Automate changelog generation
+- [ ] Try out commitizen
