@@ -12,7 +12,7 @@ more info on this @https://pre-commit.com/#usage
 
 
 ## Automatically generating docstrings using `pyment`
-1. `pip install pyment`
+1. run `pip install pyment` to install pyment
 2. run `pyment -o google .` for generating atomic google docstrings. Files are not overwritten (.patch files are created)
 3. run `pyment -o google -w .` for overwriting existing `.py` files with atomic google docstrings.
 
