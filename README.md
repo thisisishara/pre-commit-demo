@@ -4,9 +4,9 @@ This is a demo repository for installing a pre-commit hook for executing black f
 Steps:
 1. Install `pre-commit` using `pip install pre-commit`
 2. create `.pre-commit-config.yaml` in project root and add required repos
-3. run `pre-commit install` on root to install the hooks
+3. run `pre-commit install` on root to install the hooks. [use `pre-commit install --hook-type commit-msg` since commit message checking hooks are there]
 4. run `pre-commit uninstall` to uninstall hooks
-5. run `pre-commit run --all-files` to manually run the hooks
+5. run `pre-commit run --all-files` to manually run the hooks (optional)
 
 more info on this @https://pre-commit.com/#usage
 
